@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header関連 START */
+.center {
+    text-align: center;
+}
+
+#header {
+    max-width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 270px;
+    margin: 0 auto;
+    padding: 0 4%;
+    box-sizing: border-box;
+}
+
+.home_icon {
+    line-height: 1px;
+}
+
+#header ul {
+    display: flex;
+    list-style: none;
+}
+
+#header li {
+    margin-left: 30px;
+    font-size: 0.9rem;
+}
+
+#header li a {
+    color: #000000;
+    text-decoration:none; 
+}
+
+#header li img.instagram_icon {
+    width: 20px;
+}
+
+/* header関連 END */
+
+/* main関連 START */
+#mainvisual img {
+    max-width: 1920px;
+    height: 420px;
+    width: 100%;
+    object-fit:cover
+}
+
+#About {
+    max-width: 960px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#About h2 {
+    margin-bottom: 10px;
+}
+
+/* main関連 END */
