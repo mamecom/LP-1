@@ -67,6 +67,10 @@
     text-align: center;
 }
 
+li {
+    list-style: none;
+}
+
 /* 各mainのセクションのビジュアルを統一する END*/
 
 #About .about_contents {
@@ -75,7 +79,6 @@
 
 #About ul {
     font-size: 0.9rem;
-    list-style: none;
 }
 
 #About p {
@@ -83,12 +86,35 @@
     text-align: justify;
 }
 
-#Work ul {
+#Works ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-#Work img {
-    width: 30px;
+#Works li {
+    width: 31%;
+    margin-bottom: 23px;
 }
+
+#Works img {
+    width: 100%;
+}
+
+#News dl {
+    width: 500px;
+}
+
+#News dt {
+    float: left;
+    border-bottom:1px solid #ccc;
+    float:left;
+    padding:10px 5px;
+}
+
+#News dd {
+    margin-left: 100px;
+}
+
 
 /* main関連 END */
