@@ -49,17 +49,46 @@
     max-width: 1920px;
     height: 420px;
     width: 100%;
-    object-fit:cover
+    object-fit:cover;
+    margin-bottom: 80px;
 }
 
-#About {
+/* 各mainのセクションのビジュアルを統一する START*/
+.section_visual{
     max-width: 960px;
-    margin-top: 80px;
+    margin: 0 auto;
+    padding: 0 4%;
+    box-sizing: border-box;
+    margin-bottom: 130px;
+}
+
+.title_layout {
+    margin-bottom: 65px;
     text-align: center;
 }
 
-#About h2 {
-    margin-bottom: 10px;
+/* 各mainのセクションのビジュアルを統一する END*/
+
+#About .about_contents {
+    margin-bottom: 30px;
+}
+
+#About ul {
+    font-size: 0.9rem;
+    list-style: none;
+}
+
+#About p {
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+#Work ul {
+    display: flex;
+}
+
+#Work img {
+    width: 30px;
 }
 
 /* main関連 END */
