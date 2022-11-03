@@ -102,19 +102,26 @@ li {
 }
 
 #News dl {
-    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #ccc;
+    font-size: 0.9rem;
 }
 
 #News dt {
     float: left;
+    padding: 15px;
     border-bottom:1px solid #ccc;
-    float:left;
-    padding:10px 5px;
+    width: 20%;
 }
 
 #News dd {
-    margin-left: 100px;
+    float: right;
+    padding-left: 7em;
+    margin-left: 0;
+    padding: 15px;
+    border-bottom:1px solid #ccc;
+    width: 80%;
 }
-
 
 /* main関連 END */
