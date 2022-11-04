@@ -5,6 +5,7 @@
     <title>My Work - Portfolio</title>
     <link rel="icon" href="./image/icons8-camera-24.png">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
 </head>
 <body class="main-contents">
 <header id="header">
@@ -68,53 +69,49 @@
     <section id="News" class="section_visual">
         <h2 class="title_layout">News</h2>
         <dl>
-            <div>
-                <dt>2020.XX.XX</dt>
-                <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
-            </div>
-            <div>
-                <dt>2020.XX.XX</dt>
-                <dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
-            </div>
-            <div>
-                <dt>2019.XX.XX</dt>
-                <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
-            </div>
-            <div>
-                <dt>2019.XX.XX</dt>
-                <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
-            </div>
-            <div>
-                <dt>2019.XX.XX</dt>
-                <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
-            </div>
+            <dt>2020.XX.XX</dt>
+            <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
+            <dt>2020.XX.XX</dt>
+            <dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
+            <dt>2019.XX.XX</dt>
+            <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+            <dt>2019.XX.XX</dt>
+            <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
+            <dt>2019.XX.XX</dt>
+            <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
         </dl>
     </section>
     <section id="Contact" class="section_visual">
         <h2 class="title_layout">Contact</h2>
         <form action="#" method="POST">
-            <ul>
-                <li>
+            <dl>
+                <dt>
                     <label for="name">NAME</label>
+                </dt>
+                <dd>
                     <input type="text" id="name" name="user_name">
-                </li>
-                <li>
-                    <label for="name">E-mail</label>
-                    <input type="email" id="mail" name="user_mail">
-                </li>
-                <li>
+                </dd>
+                <dt>
+                    <label for="email">E-mail</label>
+                </dt>
+                <dd> 
+                    <input type="email" id="email">
+                </dd>
+                <dt>
                     <label for="name">MESSAGE</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                </li>
-                <li class="button">
-                    <button type="submit">送信</button>
-                </li>
-            </ul>
+                </dt>
+                <dd>
+                    <textarea id="msg"></textarea>
+                </dd>
+            </dl>
+            <div class="button">
+                <button type="submit">送信</button>
+            </div>
         </form>
     </section>
 </main>
 </body>
-<footer>
-    ©2020 My Work
+<footer id="footer">
+    © 2020 My Work
 </footer>
 </html>
