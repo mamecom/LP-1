@@ -6,6 +6,7 @@
     <link rel="icon" href="./image/icons8-camera-24.png">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="main-contents">
 <header id="header">
@@ -38,7 +39,10 @@
 </header>
 <main>
     <div id="mainvisual">
-        <img src="./image/mainvisual-pc.jpg" alt="mainvisual-pc">
+        <picture>
+            <source media="(max-width: 600px)" srcset="./image/mainvisual-sp.jpg">
+            <img src="./image/mainvisual-pc.jpg" alt="mainvisual-pc">
+        </picture>
     </div>
     <section id="About" class="section_visual">
         <h2 class="title_layout">About</h2>

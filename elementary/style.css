@@ -1,4 +1,6 @@
-/* header関連 START */
+/*------------------------------------
+ ヘッダー
+------------------------------------*/
 .center {
     text-align: center;
 }
@@ -36,9 +38,9 @@
     width: 20px;
 }
 
-/* header関連 END */
-
-/* main関連 START */
+/*------------------------------------
+ メイン
+------------------------------------*/
 #mainvisual img {
     max-width: 1920px;
     height: 420px;
@@ -47,12 +49,10 @@
     margin-bottom: 80px;
 }
 
-/* 各mainのセクションのビジュアルを統一する START*/
 .section_visual{
     max-width: 960px;
     margin: 0 auto 130px auto;
     padding: 0 4%;
-    /* box-sizing: border-box; */
     font-size: 0.9rem;
 }
 
@@ -66,8 +66,9 @@ li {
     list-style: none;
 }
 
-/* 各mainのセクションのビジュアルを統一する END*/
-
+/*------------------------------------
+ about
+------------------------------------*/
 #About .about_contents {
     margin-bottom: 30px;
 }
@@ -81,6 +82,9 @@ li {
     text-align: justify;
 }
 
+/*------------------------------------
+ work
+------------------------------------*/
 #Works ul {
     display: flex;
     flex-wrap: wrap;
@@ -96,6 +100,9 @@ li {
     width: 100%;
 }
 
+/*------------------------------------
+ news
+------------------------------------*/
 #News dl {
     display: flex;
     flex-wrap: wrap;
@@ -115,6 +122,9 @@ li {
     width: 80%;
 }
 
+/*------------------------------------
+ contact
+------------------------------------*/
 #Contact dl {
     display: flex;
     flex-wrap: wrap;
@@ -163,10 +173,9 @@ li {
     border: 1px solid black;
 }
 
-/* main関連 END */
-
-/* footer関連　START */
-
+/*------------------------------------
+ footer
+------------------------------------*/
 #footer {
     background-color: black;
     color: white;
@@ -176,3 +185,41 @@ li {
 }
 
 /* footer関連　END */
+
+/*------------------------------------
+ レスポンシブ
+ ブレークポイント：600px 
+------------------------------------*/
+
+/*------------------------------------
+ ヘッダー
+------------------------------------*/
+@media screen and (max-width: 600px) {
+    #header {
+        max-width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    #header .home_icon {
+        margin-top: 20px
+    }
+
+    #header ul {
+        display: flex;
+        padding: 10px 0;
+    }
+
+    #header li:first-child {
+        margin-left: 0px;
+    }
+    #header li {
+        font-size: 0.8rem;
+        margin-left: 20px;
+    }
+
+
+}
+
+
+/* header END */
