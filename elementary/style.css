@@ -190,11 +190,18 @@ li {
  レスポンシブ
  ブレークポイント：600px 
 ------------------------------------*/
-
-/*------------------------------------
- ヘッダー
-------------------------------------*/
 @media screen and (max-width: 600px) {
+    .title_layout {
+        margin-bottom: 40px;
+    }
+
+    .section_visual {
+        margin-bottom: 70px;
+    }
+
+    /*------------------------------------
+    ヘッダー
+    ------------------------------------*/
     #header {
         max-width: 100%;
         height: auto;
@@ -218,8 +225,17 @@ li {
         margin-left: 20px;
     }
 
+    /*------------------------------------
+    work
+    ------------------------------------*/
+    #Works ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    #Works li {
+        margin-bottom: 23px;
+        width: 100%;
+    }
 }
-
-
-/* header END */
