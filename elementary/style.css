@@ -238,4 +238,18 @@ li {
         margin-bottom: 23px;
         width: 100%;
     }
+
+    /*------------------------------------
+    news
+    ------------------------------------*/
+    #News dt {
+        padding: 15px 15px 0 15px;
+        width: 100%;
+        border-bottom: none;
+    }
+
+    #News dd {
+        padding: 0 15px 15px 15px;
+        width: 100%;
+    }
 }
